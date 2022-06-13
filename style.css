@@ -1,0 +1,23 @@
+body{
+    background-image: url('background.jpg');
+}
+#btn_snapshot{
+    font-size:17px;
+     font-family:patrick hand;
+      color: white;
+       background-color: rgb(66, 58, 108);
+
+}
+#btn_snapshot:hover{
+    background-color: orange;
+    text-decoration: underline;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 38px red;}
+    to{box-shadow:1px 1px 38px yellow;}
+}
